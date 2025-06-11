@@ -6,6 +6,7 @@ quotes = [
     "You are stronger than you think.",
     "Keep going; everything you need will come to you at the perfect time.",
     "Small steps every day lead to big results."
+    "You've got this; keep pushing forward!"
 ]
 
 def get_random_quote():
