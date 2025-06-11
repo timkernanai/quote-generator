@@ -12,6 +12,13 @@ quotes = [
 def get_random_quote():
     return random.choice(quotes)
 
+def main():
+    while True:
+        print("Your motivational quote of the day:")
+        print(get_random_quote())
+        again = input("Want another quote? (yes/no): ").lower()
+        if again != "yes":
+            break
+
 if __name__ == "__main__":
-    print("Your motivational quote of the day:")
-    print(get_random_quote())
+    main()
